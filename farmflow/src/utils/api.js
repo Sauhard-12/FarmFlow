@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:8000' });
+const API = axios.create({ baseURL: 'https://farmflow-1-gcrx.onrender.com/' });
 
 export const getHealth = () => API.get('/');
 export const getCrops = () => API.get('/crops');
