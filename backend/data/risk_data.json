@@ -1,0 +1,143 @@
+{
+  "crop_disease_risks": {
+    "grain_corn": [
+      {"name":"Grey Leaf Spot","risk_months":[7,8,9],"condition":"wet","severity":0.65},
+      {"name":"Northern Corn Leaf Blight","risk_months":[7,8,9],"condition":"wet","severity":0.55},
+      {"name":"Corn Rootworm","risk_months":[6,7,8],"condition":"any","severity":0.40}
+    ],
+    "soybeans": [
+      {"name":"Sudden Death Syndrome","risk_months":[7,8,9],"condition":"wet","severity":0.70},
+      {"name":"White Mould","risk_months":[7,8],"condition":"wet","severity":0.65},
+      {"name":"Soybean Cyst Nematode","risk_months":[6,7,8,9],"condition":"any","severity":0.45}
+    ],
+    "winter_wheat": [
+      {"name":"Fusarium Head Blight","risk_months":[6,7],"condition":"wet","severity":0.80},
+      {"name":"Stripe Rust","risk_months":[5,6,7],"condition":"cool","severity":0.55},
+      {"name":"Septoria Leaf Blotch","risk_months":[5,6],"condition":"wet","severity":0.50}
+    ],
+    "canola": [
+      {"name":"Sclerotinia Stem Rot","risk_months":[6,7],"condition":"wet","severity":0.70},
+      {"name":"Blackleg","risk_months":[5,6,7],"condition":"wet","severity":0.60}
+    ],
+    "potatoes": [
+      {"name":"Late Blight","risk_months":[7,8,9],"condition":"wet","severity":0.85},
+      {"name":"Early Blight","risk_months":[7,8],"condition":"warm","severity":0.50},
+      {"name":"Common Scab","risk_months":[6,7],"condition":"dry","severity":0.40}
+    ],
+    "apples": [
+      {"name":"Apple Scab","risk_months":[4,5,6],"condition":"wet","severity":0.75},
+      {"name":"Fire Blight","risk_months":[5,6],"condition":"warm","severity":0.80},
+      {"name":"Bitter Pit","risk_months":[8,9,10],"condition":"any","severity":0.35}
+    ],
+    "wine_grapes_vinifera": [
+      {"name":"Downy Mildew","risk_months":[6,7,8],"condition":"wet","severity":0.75},
+      {"name":"Botrytis Bunch Rot","risk_months":[8,9,10],"condition":"wet","severity":0.80},
+      {"name":"Powdery Mildew","risk_months":[6,7,8,9],"condition":"warm","severity":0.60}
+    ],
+    "wine_grapes_labrusca": [
+      {"name":"Downy Mildew","risk_months":[6,7,8],"condition":"wet","severity":0.65},
+      {"name":"Botrytis Bunch Rot","risk_months":[8,9,10],"condition":"wet","severity":0.70}
+    ],
+    "field_strawberries": [
+      {"name":"Botrytis Fruit Rot","risk_months":[6,7],"condition":"wet","severity":0.75},
+      {"name":"Angular Leaf Spot","risk_months":[5,6],"condition":"wet","severity":0.50}
+    ],
+    "greenhouse_tomatoes": [
+      {"name":"Botrytis Grey Mould","risk_months":[1,2,3,11,12],"condition":"wet","severity":0.60},
+      {"name":"Powdery Mildew","risk_months":[1,2,3,4,10,11,12],"condition":"any","severity":0.40}
+    ],
+    "greenhouse_peppers": [
+      {"name":"Botrytis Grey Mould","risk_months":[1,2,3,11,12],"condition":"wet","severity":0.55},
+      {"name":"Pythium Root Rot","risk_months":[1,2,3,4,11,12],"condition":"any","severity":0.45}
+    ],
+    "peaches": [
+      {"name":"Brown Rot","risk_months":[7,8,9],"condition":"wet","severity":0.80},
+      {"name":"Peach Leaf Curl","risk_months":[4,5],"condition":"wet","severity":0.60}
+    ],
+    "sweet_cherries": [
+      {"name":"Brown Rot","risk_months":[6,7],"condition":"wet","severity":0.85},
+      {"name":"Cherry Leaf Spot","risk_months":[6,7,8],"condition":"wet","severity":0.60}
+    ],
+    "garlic": [
+      {"name":"White Rot","risk_months":[6,7,8],"condition":"wet","severity":0.80},
+      {"name":"Botrytis Neck Rot","risk_months":[7,8],"condition":"wet","severity":0.65}
+    ],
+    "ginseng": [
+      {"name":"Alternaria Blight","risk_months":[7,8,9],"condition":"wet","severity":0.75},
+      {"name":"Phytophthora Root Rot","risk_months":[6,7,8],"condition":"wet","severity":0.80}
+    ],
+    "default": [
+      {"name":"Fungal Disease","risk_months":[6,7,8,9],"condition":"wet","severity":0.35}
+    ]
+  },
+
+  "transport_corridor_risks": {
+    "GTA - Core":           {"congestion":0.85,"weather_closure":0.10,"note":"Highway 401/400 — chronic peak-hour congestion"},
+    "GTA - Peel":           {"congestion":0.80,"weather_closure":0.10,"note":"Highway 410/427 corridors — high truck traffic"},
+    "GTA - York":           {"congestion":0.75,"weather_closure":0.10,"note":"Highway 400/404 — heavy commuter overlap"},
+    "GTA - Halton":         {"congestion":0.70,"weather_closure":0.12,"note":"QEW corridor — moderate congestion"},
+    "GTA - Durham":         {"congestion":0.65,"weather_closure":0.12,"note":"Highway 401 East — moderate truck volume"},
+    "Golden Horseshoe":     {"congestion":0.55,"weather_closure":0.15,"note":"Highway 403/6 — manageable congestion"},
+    "Niagara":              {"congestion":0.40,"weather_closure":0.18,"note":"QEW/406 — border crossing delays possible"},
+    "Southwestern Ontario": {"congestion":0.30,"weather_closure":0.20,"note":"Highway 401/402 — generally clear, winter closures possible"},
+    "Central Ontario":      {"congestion":0.25,"weather_closure":0.30,"note":"Highway 400/11 — winter closure risk November through March"},
+    "Eastern Ontario":      {"congestion":0.20,"weather_closure":0.25,"note":"Highway 401/417 — low congestion, snow belt risk"},
+    "Northern Ontario":     {"congestion":0.10,"weather_closure":0.55,"note":"Highway 17/11 — high winter closure risk, remote access only"}
+  },
+
+  "ontario_typical_expenses_per_acre": {
+    "grain_corn":             {"seed":185,"fertilizer":220,"crop_protection":95, "fuel_field_ops":55,"labour":40,  "drying":85, "insurance":35,"land_cash_rent":250},
+    "soybeans":               {"seed":100,"fertilizer":80, "crop_protection":65, "fuel_field_ops":45,"labour":35,  "drying":0,  "insurance":30,"land_cash_rent":250},
+    "winter_wheat":           {"seed":90, "fertilizer":140,"crop_protection":80, "fuel_field_ops":50,"labour":35,  "drying":30, "insurance":28,"land_cash_rent":230},
+    "hay_alfalfa":            {"seed":80, "fertilizer":60, "crop_protection":20, "fuel_field_ops":70,"labour":60,  "drying":0,  "insurance":20,"land_cash_rent":180},
+    "barley":                 {"seed":75, "fertilizer":130,"crop_protection":55, "fuel_field_ops":45,"labour":30,  "drying":25, "insurance":25,"land_cash_rent":220},
+    "oats":                   {"seed":55, "fertilizer":100,"crop_protection":40, "fuel_field_ops":40,"labour":30,  "drying":20, "insurance":22,"land_cash_rent":200},
+    "dry_field_beans":        {"seed":120,"fertilizer":90, "crop_protection":70, "fuel_field_ops":50,"labour":45,  "drying":0,  "insurance":32,"land_cash_rent":240},
+    "canola":                 {"seed":95, "fertilizer":180,"crop_protection":120,"fuel_field_ops":55,"labour":40,  "drying":40, "insurance":35,"land_cash_rent":240},
+    "greenhouse_tomatoes":    {"seed":800,"fertilizer":1200,"crop_protection":600,"fuel_field_ops":0,"labour":3500,"drying":0,  "insurance":200,"land_cash_rent":0},
+    "greenhouse_peppers":     {"seed":900,"fertilizer":1100,"crop_protection":500,"fuel_field_ops":0,"labour":3200,"drying":0,  "insurance":180,"land_cash_rent":0},
+    "greenhouse_cucumbers":   {"seed":700,"fertilizer":900,"crop_protection":400,"fuel_field_ops":0, "labour":2800,"drying":0,  "insurance":150,"land_cash_rent":0},
+    "greenhouse_lettuce":     {"seed":500,"fertilizer":700,"crop_protection":200,"fuel_field_ops":0, "labour":2500,"drying":0,  "insurance":120,"land_cash_rent":0},
+    "greenhouse_strawberries":{"seed":1200,"fertilizer":1000,"crop_protection":800,"fuel_field_ops":0,"labour":4000,"drying":0, "insurance":250,"land_cash_rent":0},
+    "apples":                 {"seed":0,  "fertilizer":280,"crop_protection":620,"fuel_field_ops":80, "labour":1200,"drying":0,  "insurance":180,"land_cash_rent":0},
+    "wine_grapes_vinifera":   {"seed":0,  "fertilizer":350,"crop_protection":850,"fuel_field_ops":90, "labour":1500,"drying":0,  "insurance":220,"land_cash_rent":0},
+    "wine_grapes_labrusca":   {"seed":0,  "fertilizer":280,"crop_protection":620,"fuel_field_ops":80, "labour":1200,"drying":0,  "insurance":160,"land_cash_rent":0},
+    "peaches":                {"seed":0,  "fertilizer":250,"crop_protection":580,"fuel_field_ops":70, "labour":1400,"drying":0,  "insurance":200,"land_cash_rent":0},
+    "pears":                  {"seed":0,  "fertilizer":220,"crop_protection":500,"fuel_field_ops":70, "labour":1300,"drying":0,  "insurance":180,"land_cash_rent":0},
+    "sweet_cherries":         {"seed":0,  "fertilizer":300,"crop_protection":650,"fuel_field_ops":80, "labour":1800,"drying":0,  "insurance":220,"land_cash_rent":0},
+    "sour_cherries":          {"seed":0,  "fertilizer":250,"crop_protection":500,"fuel_field_ops":70, "labour":1400,"drying":0,  "insurance":180,"land_cash_rent":0},
+    "plums_prunes":           {"seed":0,  "fertilizer":220,"crop_protection":480,"fuel_field_ops":65, "labour":1200,"drying":0,  "insurance":160,"land_cash_rent":0},
+    "field_strawberries":     {"seed":350,"fertilizer":180,"crop_protection":380,"fuel_field_ops":60, "labour":2200,"drying":0,  "insurance":180,"land_cash_rent":0},
+    "highbush_blueberries":   {"seed":0,  "fertilizer":220,"crop_protection":320,"fuel_field_ops":55, "labour":1800,"drying":0,  "insurance":160,"land_cash_rent":0},
+    "raspberries":            {"seed":0,  "fertilizer":180,"crop_protection":280,"fuel_field_ops":50, "labour":2000,"drying":0,  "insurance":150,"land_cash_rent":0},
+    "field_tomatoes":         {"seed":250,"fertilizer":280,"crop_protection":220,"fuel_field_ops":70, "labour":380, "drying":0,  "insurance":60, "land_cash_rent":200},
+    "sweet_corn":             {"seed":160,"fertilizer":180,"crop_protection":100,"fuel_field_ops":55, "labour":80,  "drying":0,  "insurance":35, "land_cash_rent":220},
+    "carrots":                {"seed":180,"fertilizer":160,"crop_protection":140,"fuel_field_ops":80, "labour":280, "drying":0,  "insurance":55, "land_cash_rent":210},
+    "onions":                 {"seed":200,"fertilizer":200,"crop_protection":180,"fuel_field_ops":75, "labour":320, "drying":0,  "insurance":60, "land_cash_rent":220},
+    "potatoes":               {"seed":600,"fertilizer":350,"crop_protection":300,"fuel_field_ops":90, "labour":280, "drying":0,  "insurance":80, "land_cash_rent":230},
+    "pumpkins_squash":        {"seed":120,"fertilizer":130,"crop_protection":80, "fuel_field_ops":55, "labour":160, "drying":0,  "insurance":35, "land_cash_rent":180},
+    "asparagus":              {"seed":0,  "fertilizer":200,"crop_protection":250,"fuel_field_ops":60, "labour":1800,"drying":0,  "insurance":150,"land_cash_rent":0},
+    "green_beans":            {"seed":140,"fertilizer":120,"crop_protection":100,"fuel_field_ops":50, "labour":200, "drying":0,  "insurance":40, "land_cash_rent":200},
+    "cabbage":                {"seed":150,"fertilizer":160,"crop_protection":120,"fuel_field_ops":60, "labour":280, "drying":0,  "insurance":45, "land_cash_rent":200},
+    "broccoli":               {"seed":180,"fertilizer":170,"crop_protection":130,"fuel_field_ops":60, "labour":300, "drying":0,  "insurance":50, "land_cash_rent":210},
+    "garlic":                 {"seed":800,"fertilizer":200,"crop_protection":150,"fuel_field_ops":65, "labour":600, "drying":30, "insurance":80, "land_cash_rent":0},
+    "ginseng":                {"seed":2000,"fertilizer":400,"crop_protection":800,"fuel_field_ops":80,"labour":3000,"drying":200,"insurance":500,"land_cash_rent":0},
+    "hops":                   {"seed":0,  "fertilizer":350,"crop_protection":400,"fuel_field_ops":80, "labour":2500,"drying":150,"insurance":250,"land_cash_rent":0},
+    "sweet_potato":           {"seed":400,"fertilizer":180,"crop_protection":120,"fuel_field_ops":60, "labour":350, "drying":0,  "insurance":55, "land_cash_rent":200},
+    "tobacco":                {"seed":350,"fertilizer":280,"crop_protection":200,"fuel_field_ops":70, "labour":1200,"drying":800,"insurance":120,"land_cash_rent":0}
+  },
+
+  "typical_yield_kg_per_acre": {
+    "grain_corn":10800,"soybeans":3200,"winter_wheat":4500,"hay_alfalfa":8000,
+    "barley":3800,"oats":3200,"dry_field_beans":2400,"canola":2200,
+    "greenhouse_tomatoes":85000,"greenhouse_peppers":55000,"greenhouse_cucumbers":70000,
+    "greenhouse_lettuce":25000,"greenhouse_strawberries":18000,
+    "apples":18000,"wine_grapes_vinifera":5500,"wine_grapes_labrusca":7000,
+    "peaches":12000,"pears":14000,"sweet_cherries":8000,"sour_cherries":9000,
+    "plums_prunes":10000,"field_strawberries":8000,"highbush_blueberries":5000,
+    "raspberries":3500,"field_tomatoes":35000,"sweet_corn":9000,
+    "carrots":28000,"onions":30000,"potatoes":35000,"pumpkins_squash":15000,
+    "asparagus":2200,"green_beans":6000,"cabbage":32000,"broccoli":8000,
+    "garlic":5000,"ginseng":1800,"hops":1800,"sweet_potato":18000,"tobacco":2800
+  }
+}

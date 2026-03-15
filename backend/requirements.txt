@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+ibm-watsonx-ai
+pandas
+numpy
+google-generativeai
+httpx
+ibm-db
+ibm-db-sa
+beautifulsoup4
+uvicorn[standard]
+python-dotenv
+pydantic
+psycopg2-binary
+groq

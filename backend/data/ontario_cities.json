@@ -1,0 +1,503 @@
+[
+
+  {
+    "id": "toronto",
+    "name": "Toronto",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "population_2021": 2794356,
+    "population_factor": 1.000,
+    "restaurant_density": 1.00,
+    "region": "GTA - Core"
+  },
+  {
+    "id": "mississauga",
+    "name": "Mississauga",
+    "lat": 43.5890,
+    "lng": -79.6441,
+    "population_2021": 717961,
+    "population_factor": 0.257,
+    "restaurant_density": 0.72,
+    "region": "GTA - Peel"
+  },
+  {
+    "id": "brampton",
+    "name": "Brampton",
+    "lat": 43.7315,
+    "lng": -79.7624,
+    "population_2021": 656480,
+    "population_factor": 0.235,
+    "restaurant_density": 0.65,
+    "region": "GTA - Peel"
+  },
+  {
+    "id": "markham",
+    "name": "Markham",
+    "lat": 43.8561,
+    "lng": -79.3370,
+    "population_2021": 338503,
+    "population_factor": 0.121,
+    "restaurant_density": 0.62,
+    "region": "GTA - York"
+  },
+  {
+    "id": "vaughan",
+    "name": "Vaughan",
+    "lat": 43.8361,
+    "lng": -79.4983,
+    "population_2021": 323103,
+    "population_factor": 0.116,
+    "restaurant_density": 0.60,
+    "region": "GTA - York"
+  },
+  {
+    "id": "oakville",
+    "name": "Oakville",
+    "lat": 43.4675,
+    "lng": -79.6877,
+    "population_2021": 213759,
+    "population_factor": 0.077,
+    "restaurant_density": 0.58,
+    "region": "GTA - Halton"
+  },
+  {
+    "id": "richmond_hill",
+    "name": "Richmond Hill",
+    "lat": 43.8828,
+    "lng": -79.4403,
+    "population_2021": 202022,
+    "population_factor": 0.072,
+    "restaurant_density": 0.57,
+    "region": "GTA - York"
+  },
+  {
+    "id": "burlington",
+    "name": "Burlington",
+    "lat": 43.3255,
+    "lng": -79.7990,
+    "population_2021": 186948,
+    "population_factor": 0.067,
+    "restaurant_density": 0.55,
+    "region": "GTA - Halton"
+  },
+  {
+    "id": "oshawa",
+    "name": "Oshawa",
+    "lat": 43.8971,
+    "lng": -78.8658,
+    "population_2021": 175383,
+    "population_factor": 0.063,
+    "restaurant_density": 0.50,
+    "region": "GTA - Durham"
+  },
+  {
+    "id": "whitby",
+    "name": "Whitby",
+    "lat": 43.8975,
+    "lng": -78.9429,
+    "population_2021": 138501,
+    "population_factor": 0.050,
+    "restaurant_density": 0.46,
+    "region": "GTA - Durham"
+  },
+  {
+    "id": "ajax",
+    "name": "Ajax",
+    "lat": 43.8509,
+    "lng": -79.0204,
+    "population_2021": 126666,
+    "population_factor": 0.045,
+    "restaurant_density": 0.44,
+    "region": "GTA - Durham"
+  },
+  {
+    "id": "pickering",
+    "name": "Pickering",
+    "lat": 43.8354,
+    "lng": -79.0893,
+    "population_2021": 101386,
+    "population_factor": 0.036,
+    "restaurant_density": 0.40,
+    "region": "GTA - Durham"
+  },
+  {
+    "id": "newmarket",
+    "name": "Newmarket",
+    "lat": 44.0592,
+    "lng": -79.4610,
+    "population_2021": 90141,
+    "population_factor": 0.032,
+    "restaurant_density": 0.42,
+    "region": "GTA - York"
+  },
+  {
+    "id": "milton",
+    "name": "Milton",
+    "lat": 43.5183,
+    "lng": -79.8774,
+    "population_2021": 132979,
+    "population_factor": 0.048,
+    "restaurant_density": 0.43,
+    "region": "GTA - Halton"
+  },
+
+
+  {
+    "id": "hamilton",
+    "name": "Hamilton",
+    "lat": 43.2557,
+    "lng": -79.8711,
+    "population_2021": 569353,
+    "population_factor": 0.204,
+    "restaurant_density": 0.62,
+    "region": "Golden Horseshoe"
+  },
+  {
+    "id": "st_catharines",
+    "name": "St. Catharines",
+    "lat": 43.1594,
+    "lng": -79.2469,
+    "population_2021": 133113,
+    "population_factor": 0.048,
+    "restaurant_density": 0.50,
+    "region": "Niagara"
+  },
+  {
+    "id": "niagara_falls",
+    "name": "Niagara Falls",
+    "lat": 43.0962,
+    "lng": -79.0377,
+    "population_2021": 92013,
+    "population_factor": 0.033,
+    "restaurant_density": 0.55,
+    "region": "Niagara"
+  },
+  {
+    "id": "welland",
+    "name": "Welland",
+    "lat": 42.9922,
+    "lng": -79.2482,
+    "population_2021": 52293,
+    "population_factor": 0.019,
+    "restaurant_density": 0.38,
+    "region": "Niagara"
+  },
+  {
+    "id": "brantford",
+    "name": "Brantford",
+    "lat": 43.1394,
+    "lng": -80.2644,
+    "population_2021": 104688,
+    "population_factor": 0.037,
+    "restaurant_density": 0.42,
+    "region": "Golden Horseshoe"
+  },
+
+
+  {
+    "id": "kitchener",
+    "name": "Kitchener-Waterloo",
+    "lat": 43.4516,
+    "lng": -80.4925,
+    "population_2021": 256885,
+    "population_factor": 0.092,
+    "restaurant_density": 0.58,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "cambridge",
+    "name": "Cambridge",
+    "lat": 43.3616,
+    "lng": -80.3144,
+    "population_2021": 141119,
+    "population_factor": 0.051,
+    "restaurant_density": 0.45,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "guelph",
+    "name": "Guelph",
+    "lat": 43.5448,
+    "lng": -80.2482,
+    "population_2021": 143740,
+    "population_factor": 0.051,
+    "restaurant_density": 0.52,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "london",
+    "name": "London",
+    "lat": 42.9849,
+    "lng": -81.2453,
+    "population_2021": 422324,
+    "population_factor": 0.151,
+    "restaurant_density": 0.55,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "windsor",
+    "name": "Windsor",
+    "lat": 42.3149,
+    "lng": -83.0364,
+    "population_2021": 229660,
+    "population_factor": 0.082,
+    "restaurant_density": 0.50,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "chatham",
+    "name": "Chatham-Kent",
+    "lat": 42.4048,
+    "lng": -82.1910,
+    "population_2021": 45171,
+    "population_factor": 0.016,
+    "restaurant_density": 0.32,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "sarnia",
+    "name": "Sarnia",
+    "lat": 42.9994,
+    "lng": -82.3089,
+    "population_2021": 71594,
+    "population_factor": 0.026,
+    "restaurant_density": 0.36,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "leamington",
+    "name": "Leamington",
+    "lat": 42.0564,
+    "lng": -82.5990,
+    "population_2021": 35730,
+    "population_factor": 0.013,
+    "restaurant_density": 0.30,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "st_thomas",
+    "name": "St. Thomas",
+    "lat": 42.7731,
+    "lng": -81.1975,
+    "population_2021": 45732,
+    "population_factor": 0.016,
+    "restaurant_density": 0.33,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "woodstock",
+    "name": "Woodstock",
+    "lat": 43.1306,
+    "lng": -80.7468,
+    "population_2021": 46296,
+    "population_factor": 0.017,
+    "restaurant_density": 0.34,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "stratford",
+    "name": "Stratford",
+    "lat": 43.3700,
+    "lng": -80.9822,
+    "population_2021": 32878,
+    "population_factor": 0.012,
+    "restaurant_density": 0.40,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "simcoe",
+    "name": "Simcoe (Norfolk County)",
+    "lat": 42.8404,
+    "lng": -80.3059,
+    "population_2021": 16121,
+    "population_factor": 0.006,
+    "restaurant_density": 0.28,
+    "region": "Southwestern Ontario"
+  },
+  {
+    "id": "tillsonburg",
+    "name": "Tillsonburg",
+    "lat": 42.8601,
+    "lng": -80.7318,
+    "population_2021": 18573,
+    "population_factor": 0.007,
+    "restaurant_density": 0.26,
+    "region": "Southwestern Ontario"
+  },
+
+
+  {
+    "id": "barrie",
+    "name": "Barrie",
+    "lat": 44.3894,
+    "lng": -79.6903,
+    "population_2021": 153356,
+    "population_factor": 0.055,
+    "restaurant_density": 0.48,
+    "region": "Central Ontario"
+  },
+  {
+    "id": "orillia",
+    "name": "Orillia",
+    "lat": 44.5903,
+    "lng": -79.4197,
+    "population_2021": 33379,
+    "population_factor": 0.012,
+    "restaurant_density": 0.32,
+    "region": "Central Ontario"
+  },
+  {
+    "id": "collingwood",
+    "name": "Collingwood",
+    "lat": 44.5001,
+    "lng": -80.2170,
+    "population_2021": 22983,
+    "population_factor": 0.008,
+    "restaurant_density": 0.38,
+    "region": "Central Ontario"
+  },
+  {
+    "id": "midland",
+    "name": "Midland",
+    "lat": 44.7497,
+    "lng": -79.8818,
+    "population_2021": 26246,
+    "population_factor": 0.009,
+    "restaurant_density": 0.30,
+    "region": "Central Ontario"
+  },
+  {
+    "id": "peterborough",
+    "name": "Peterborough",
+    "lat": 44.3091,
+    "lng": -78.3197,
+    "population_2021": 83651,
+    "population_factor": 0.030,
+    "restaurant_density": 0.42,
+    "region": "Central Ontario"
+  },
+
+
+  {
+    "id": "ottawa",
+    "name": "Ottawa",
+    "lat": 45.4215,
+    "lng": -75.6972,
+    "population_2021": 1017449,
+    "population_factor": 0.364,
+    "restaurant_density": 0.65,
+    "region": "Eastern Ontario"
+  },
+  {
+    "id": "kingston",
+    "name": "Kingston",
+    "lat": 44.2312,
+    "lng": -76.4860,
+    "population_2021": 132485,
+    "population_factor": 0.047,
+    "restaurant_density": 0.46,
+    "region": "Eastern Ontario"
+  },
+  {
+    "id": "belleville",
+    "name": "Belleville",
+    "lat": 44.1628,
+    "lng": -77.3832,
+    "population_2021": 55040,
+    "population_factor": 0.020,
+    "restaurant_density": 0.36,
+    "region": "Eastern Ontario"
+  },
+  {
+    "id": "cornwall",
+    "name": "Cornwall",
+    "lat": 45.0211,
+    "lng": -74.7278,
+    "population_2021": 47156,
+    "population_factor": 0.017,
+    "restaurant_density": 0.33,
+    "region": "Eastern Ontario"
+  },
+  {
+    "id": "brockville",
+    "name": "Brockville",
+    "lat": 44.5895,
+    "lng": -75.6860,
+    "population_2021": 22293,
+    "population_factor": 0.008,
+    "restaurant_density": 0.30,
+    "region": "Eastern Ontario"
+  },
+  {
+    "id": "pembroke",
+    "name": "Pembroke",
+    "lat": 45.8167,
+    "lng": -77.1000,
+    "population_2021": 16571,
+    "population_factor": 0.006,
+    "restaurant_density": 0.26,
+    "region": "Eastern Ontario"
+  },
+
+  {
+    "id": "sudbury",
+    "name": "Greater Sudbury",
+    "lat": 46.4900,
+    "lng": -80.9906,
+    "population_2021": 92093,
+    "population_factor": 0.033,
+    "restaurant_density": 0.35,
+    "region": "Northern Ontario"
+  },
+  {
+    "id": "thunder_bay",
+    "name": "Thunder Bay",
+    "lat": 48.3809,
+    "lng": -89.2477,
+    "population_2021": 107909,
+    "population_factor": 0.039,
+    "restaurant_density": 0.33,
+    "region": "Northern Ontario"
+  },
+  {
+    "id": "sault_ste_marie",
+    "name": "Sault Ste. Marie",
+    "lat": 46.5231,
+    "lng": -84.3453,
+    "population_2021": 64429,
+    "population_factor": 0.023,
+    "restaurant_density": 0.30,
+    "region": "Northern Ontario"
+  },
+  {
+    "id": "north_bay",
+    "name": "North Bay",
+    "lat": 46.3091,
+    "lng": -79.4608,
+    "population_2021": 51553,
+    "population_factor": 0.018,
+    "restaurant_density": 0.28,
+    "region": "Northern Ontario"
+  },
+  {
+    "id": "timmins",
+    "name": "Timmins",
+    "lat": 48.4758,
+    "lng": -81.3305,
+    "population_2021": 41788,
+    "population_factor": 0.015,
+    "restaurant_density": 0.24,
+    "region": "Northern Ontario"
+  },
+  {
+    "id": "kenora",
+    "name": "Kenora",
+    "lat": 49.7670,
+    "lng": -94.4892,
+    "population_2021": 10974,
+    "population_factor": 0.004,
+    "restaurant_density": 0.20,
+    "region": "Northern Ontario"
+  }
+
+]

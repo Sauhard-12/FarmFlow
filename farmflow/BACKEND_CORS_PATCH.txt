@@ -1,0 +1,22 @@
+# Add this to the TOP of your backend/main.py, right after the imports section:
+
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Also make sure these routes exist in your main.py (check they match):
+# GET  /                     -> health check (status, ai_provider, crop_count etc.)
+# GET  /crops                -> list of all crops
+# GET  /cities               -> list of all cities
+# POST /simulate             -> main simulation
+# POST /environmental-risk   -> env risk analysis
+# POST /scenarios            -> scenario analysis
+# POST /store-vs-sell        -> storage analysis
+# POST /advisor/chat         -> AI chat { message, context }
+# GET  /community/stats      -> community stats

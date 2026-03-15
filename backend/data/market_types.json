@@ -1,0 +1,18 @@
+[
+  {"id":"farmers_market","name":"Farmers Market","price_multiplier":1.35,"max_volume_kg":5000,"description":"Direct-to-consumer at local markets. Higher price, lower volume.","icon":"🛒"},
+  {"id":"grocery_chain","name":"Grocery Chain","price_multiplier":1.10,"max_volume_kg":50000,"description":"Large supermarket chains. Moderate price, high volume.","icon":"🏪"},
+  {"id":"food_processor","name":"Food Processor","price_multiplier":0.88,"max_volume_kg":200000,"description":"Industrial processing plants. Lower price, massive volume.","icon":"🏭"},
+  {"id":"restaurant_group","name":"Restaurant Group","price_multiplier":1.25,"max_volume_kg":10000,"description":"Local and chain restaurants. Good price for fresh produce.","icon":"🍽️"},
+  {"id":"grain_elevator","name":"Grain Elevator","price_multiplier":0.95,"max_volume_kg":500000,"description":"Commodity storage and resale. Standard price, huge capacity.","icon":"🌾"},
+  {"id":"export_broker","name":"Export Broker","price_multiplier":1.05,"max_volume_kg":1000000,"description":"International trade intermediaries. Good for large lots.","icon":"🚢"},
+  {"id":"flour_mill","name":"Flour Mill","price_multiplier":0.92,"max_volume_kg":300000,"description":"Wheat-to-flour processors. Stable long-term contracts.","icon":"⚙️"},
+  {"id":"ethanol_plant","name":"Ethanol Plant","price_multiplier":0.82,"max_volume_kg":800000,"description":"Biofuel producers. Lowest price, very reliable off-take.","icon":"⛽"},
+  {"id":"winery","name":"Winery","price_multiplier":1.00,"max_volume_kg":5000,"description":"Ontario wineries. Fixed contracted price.","icon":"🍷"},
+  {"id":"craft_brewery","name":"Craft Brewery","price_multiplier":1.20,"max_volume_kg":2000,"description":"Local craft beer producers. Premium for local Ontario hops.","icon":"🍺"},
+  {"id":"feed_mill","name":"Feed Mill","price_multiplier":0.90,"max_volume_kg":150000,"description":"Livestock feed manufacturers. Stable demand, moderate price.","icon":"🌿"},
+  {"id":"livestock_producer","name":"Livestock Producer","price_multiplier":0.95,"max_volume_kg":80000,"description":"Direct to farm for hay and forage. Eliminates middleman.","icon":"🐄"},
+  {"id":"juice_processor","name":"Juice Processor","price_multiplier":0.85,"max_volume_kg":50000,"description":"Fruit juice and beverage processors.","icon":"🧃"},
+  {"id":"specialty_buyer","name":"Specialty Buyer","price_multiplier":1.30,"max_volume_kg":3000,"description":"Health food distributors and specialty retailers.","icon":"🌿"},
+  {"id":"health_distributor","name":"Health Distributor","price_multiplier":1.25,"max_volume_kg":5000,"description":"Natural health product distributors. Export-focused.","icon":"💊"},
+  {"id":"tobacco_company","name":"Tobacco Company","price_multiplier":1.00,"max_volume_kg":500000,"description":"Contracted purchase by licensed tobacco processors.","icon":"🏢"}
+]
